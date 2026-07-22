@@ -380,17 +380,7 @@ app.get('/', (c) => {
     <!-- LAUNCH CARD -->
     <div class="learn-launch animate-on-scroll">
       <div class="launch-bg-deco"></div>
-      <div class="launch-left">
-        <div class="launch-logo-wrap">
-          <img src="/static/logo-naqaa.png" alt="نقاء" class="launch-logo"/>
-        </div>
-        <div class="launch-pills">
-          <span class="launch-pill"><i class="fas fa-book-open"></i> درسان تعليميان</span>
-          <span class="launch-pill"><i class="fas fa-question-circle"></i> اختبار سريع</span>
-          <span class="launch-pill"><i class="fas fa-award"></i> شهادة إتمام</span>
-          <span class="launch-pill"><i class="fas fa-clock"></i> 3 دقائق فقط</span>
-        </div>
-      </div>
+      
       <div class="launch-right">
         <h3 class="launch-title">رحلة نقاء التعليمية</h3>
         <p class="launch-desc">تعرّف على مخاطر النفايات الإلكترونية، واختبر معلوماتك، واحصل على شهادة سفير نقاء.</p>
@@ -403,105 +393,6 @@ app.get('/', (c) => {
     </div>
   </div>
 </section>
-
-<!-- ========== LEARN MODAL ========== -->
-<div class="lmodal-overlay" id="learnModal" aria-hidden="true">
-  <div class="lmodal" role="dialog" aria-modal="true">
-
-    <!-- Modal Header -->
-    <div class="lmodal-header">
-      <div class="lmodal-progress">
-        <div class="lmodal-bar"><div class="lmodal-fill" id="lmodalFill"></div></div>
-        <span class="lmodal-step-lbl" id="lmodalStepLbl">١ / ٤</span>
-      </div>
-      <button class="lmodal-close" id="closeLearnModal" aria-label="إغلاق"><i class="fas fa-times"></i></button>
-    </div>
-
-    <!-- Modal Body -->
-    <div class="lmodal-body" id="lmodalBody">
-
-      <!-- STEP 1 -->
-      <div class="lmodal-step active" data-step="1">
-        <div class="lms-icon teal"><i class="fas fa-laptop"></i></div>
-        <span class="lms-badge">الدرس الأول</span>
-        <h3>ما هي النفايات الإلكترونية؟</h3>
-        <p class="lms-lead">كل جهاز إلكتروني أو كهربائي انتهت صلاحيته أو لم يعد مستخدماً يُعدّ نفاية إلكترونية.</p>
-        <div class="lms-types">
-          <div class="lms-type"><i class="fas fa-mobile-alt"></i><span>الهواتف</span></div>
-          <div class="lms-type"><i class="fas fa-laptop"></i><span>الحواسيب</span></div>
-          <div class="lms-type"><i class="fas fa-tv"></i><span>الشاشات</span></div>
-          <div class="lms-type"><i class="fas fa-battery-full"></i><span>البطاريات</span></div>
-          <div class="lms-type"><i class="fas fa-plug"></i><span>الشواحن</span></div>
-          <div class="lms-type"><i class="fas fa-headphones"></i><span>السماعات</span></div>
-        </div>
-        <div class="lms-fact">
-          <i class="fas fa-lightbulb"></i>
-          <p>هل تعلم؟ ينتج العالم أكثر من <strong>62 مليون طن</strong> من النفايات الإلكترونية سنوياً!</p>
-        </div>
-        <div class="lms-footer">
-          <button class="lms-next" data-next="2">التالي <i class="fas fa-arrow-left"></i></button>
-        </div>
-      </div>
-
-      <!-- STEP 2: QUIZ -->
-      <div class="lmodal-step" data-step="2">
-        <div class="lms-icon blue"><i class="fas fa-brain"></i></div>
-        <span class="lms-badge blue">اختبر نفسك</span>
-        <h3>ما أكثر نوع من النفايات الإلكترونية خطورة على البيئة؟</h3>
-        <div class="lms-opts" id="lmsOpts">
-          <button class="lms-opt" data-correct="false"><span class="lms-opt-l">أ</span><span>الهواتف القديمة</span></button>
-          <button class="lms-opt" data-correct="true"><span class="lms-opt-l">ب</span><span>البطاريات والمكثفات</span></button>
-          <button class="lms-opt" data-correct="false"><span class="lms-opt-l">ج</span><span>الكابلات والأسلاك</span></button>
-          <button class="lms-opt" data-correct="false"><span class="lms-opt-l">د</span><span>لوحات المفاتيح</span></button>
-        </div>
-        <div class="lms-feedback" id="lmsFeedback" style="display:none"></div>
-        <div class="lms-footer" id="lmsQuizFooter" style="display:none">
-          <button class="lms-prev" data-prev="1"><i class="fas fa-arrow-right"></i> السابق</button>
-          <button class="lms-next" data-next="3">التالي <i class="fas fa-arrow-left"></i></button>
-        </div>
-      </div>
-
-      <!-- STEP 3: RECYCLE -->
-      <div class="lmodal-step" data-step="3">
-        <div class="lms-icon green"><i class="fas fa-recycle"></i></div>
-        <span class="lms-badge green">الدرس الثاني</span>
-        <h3>كيف تتخلص من جهازك بشكل صحيح؟</h3>
-        <div class="lms-recycle">
-          <div class="lms-rs"><div class="lms-rs-n">١</div><div><strong>لا ترمِه في القمامة</strong><p>النفايات الإلكترونية تحتاج معالجة خاصة.</p></div></div>
-          <div class="lms-rs"><div class="lms-rs-n">٢</div><div><strong>امسح بياناتك أولاً</strong><p>احمِ خصوصيتك قبل التخلص من الجهاز.</p></div></div>
-          <div class="lms-rs"><div class="lms-rs-n">٣</div><div><strong>ابحث عن أقرب مركز تدوير</strong><p>تواصل مع مراكز إعادة التدوير المعتمدة.</p></div></div>
-          <div class="lms-rs"><div class="lms-rs-n">٤</div><div><strong>تبرع أو بِع إذا كان يعمل</strong><p>أطِل عمر جهازك بدلاً من التخلص منه.</p></div></div>
-        </div>
-        <div class="lms-footer">
-          <button class="lms-prev" data-prev="2"><i class="fas fa-arrow-right"></i> السابق</button>
-          <button class="lms-next" data-next="4">التالي <i class="fas fa-arrow-left"></i></button>
-        </div>
-      </div>
-
-      <!-- STEP 4: CERT -->
-      <div class="lmodal-step" data-step="4">
-        <div class="lms-cert-confetti" id="lmsCertConfetti"></div>
-        <div class="lms-cert-icon"><i class="fas fa-award"></i></div>
-        <h3>أحسنت! 🎉 أكملت الرحلة التعليمية</h3>
-        <p class="lms-cert-sub">أنت الآن سفير نقاء — شارك إنجازك وساعد الآخرين على التعلم.</p>
-        <div class="lms-cert-badge">
-          <img src="/static/logo-naqaa.png" alt="نقاء" class="lms-cert-logo"/>
-          <div>
-            <span class="lms-cert-title">سفير نقاء</span>
-            <span class="lms-cert-year">2025</span>
-          </div>
-        </div>
-        <div class="lms-share-btns">
-          <button class="share-btn share-tw" onclick="shareAchievement('twitter')"><i class="fab fa-twitter"></i> X</button>
-          <button class="share-btn share-wa" onclick="shareAchievement('whatsapp')"><i class="fab fa-whatsapp"></i> واتساب</button>
-          <button class="share-btn share-sn" onclick="shareAchievement('snap')"><i class="fab fa-snapchat-ghost"></i> سناب</button>
-        </div>
-        <button class="lms-restart" id="lmsRestartBtn"><i class="fas fa-redo"></i> أعد التجربة</button>
-      </div>
-
-    </div><!-- /lmodal-body -->
-  </div>
-</div>
 
 <!-- ========== CONTACT ========== -->
 <section class="contact" id="contact">
