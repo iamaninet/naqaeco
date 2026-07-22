@@ -78,8 +78,8 @@ app.get('/', (c) => {
         اكتشف المبادرة
       </a>
       <a href="#contact" class="btn btn-outline">
-        <i class="fas fa-hands-helping"></i>
-        انضم إلينا
+        <i class="fa-solid fa-chalkboard-user"></i>
+        انضم للتجربة التعليمية
       </a>
     </div>
     <div class="hero-scroll-hint">
