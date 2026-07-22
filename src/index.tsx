@@ -66,7 +66,7 @@ app.get('/', (c) => {
     </div>
     <h1 class="hero-title">
       <span class="title-naqaa">نقاء</span>
-      <span class="title-sub">من أجل بيئة أنظف وغدٍ أفضل</span>
+      <span class="title-sub">تقنية نظيفة... بيئة نقية</span>
     </h1>
     <p class="hero-desc">
       مبادرة توعوية تهدف إلى تثقيف المجتمع بمخاطر النفايات الإلكترونية، 

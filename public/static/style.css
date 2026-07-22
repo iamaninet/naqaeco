@@ -1362,7 +1362,7 @@ border-radius: 35px;
 }
 @media (max-width: 480px) {
   .lms-types { grid-template-columns: repeat(3, 1fr); }
-  .btn-launch { width: 100%; justify-content: center; }
+  .btn-launch {  justify-content: center; }
 }
 
 
