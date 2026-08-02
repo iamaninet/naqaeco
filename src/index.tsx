@@ -433,20 +433,21 @@ app.get('/', (c) => {
           </div>
         </div>
       </div>
+
       <form class="contact-form animate-on-scroll" id="contactForm">
         <div class="form-row">
           <div class="form-group">
             <label for="name">الاسم الكامل</label>
-            <input type="text" id="name" placeholder="أدخل اسمك" required/>
+            <input type="text" id="name" name="name" placeholder="أدخل اسمك" required/>
           </div>
           <div class="form-group">
             <label for="email">البريد الإلكتروني</label>
-            <input type="email" id="email" placeholder="example@email.com" required/>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required/>
           </div>
         </div>
         <div class="form-group">
           <label for="subject">الموضوع</label>
-          <select id="subject">
+          <select id="subject" name="subject">
             <option value="">اختر الموضوع</option>
             <option value="join">الانضمام للمبادرة</option>
             <option value="partner">الشراكة والتعاون</option>
@@ -456,7 +457,7 @@ app.get('/', (c) => {
         </div>
         <div class="form-group">
           <label for="message">رسالتك</label>
-          <textarea id="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+          <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
         </div>
         <button type="submit" class="btn btn-primary btn-full">
           <i class="fas fa-paper-plane"></i>
