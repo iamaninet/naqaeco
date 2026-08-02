@@ -434,7 +434,7 @@ app.get('/', (c) => {
         </div>
       </div>
 
-      <form class="contact-form animate-on-scroll" id="contactForm">
+      <form class="contact-form animate-on-scroll" id="form">
         <div class="form-row">
           <div class="form-group">
             <label for="name">الاسم الكامل</label>
