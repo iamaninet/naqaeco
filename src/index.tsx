@@ -408,7 +408,7 @@ app.get('/', (c) => {
           <div class="contact-icon"><i class="fas fa-envelope"></i></div>
           <div>
             <h4>البريد الإلكتروني</h4>
-            <p>naqaeco@gmail.com</p>
+            <p>naqa.eco@gmail.com</p>
           </div>
         </div>
         <div class="contact-item">
@@ -481,7 +481,7 @@ app.get('/', (c) => {
           <a href="https://instagram.com/naqaeco" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
           <a href="https://x.com/naqaeco" class="social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
           <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-          <a href="mailto:naqaeco@gmail.com" class="social-link" aria-label="email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="mailto:naqa.eco@gmail.com" class="social-link" aria-label="email"><i class="fa-solid fa-envelope"></i></a>
 
         </div>
       </div>
