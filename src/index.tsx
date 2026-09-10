@@ -384,7 +384,7 @@ app.get('/', (c) => {
       <div class="launch-right">
         <h3 class="launch-title">رحلة نقاء التعليمية</h3>
         <p class="launch-desc">تعرّف على مخاطر النفايات الإلكترونية، واختبر معلوماتك، واحصل على شهادة سفير نقاء.</p>
-        <button class="btn-launch" id="openLearnModal">
+        <button class="btn-launch" id="openLearnModal" onclick="window.open('https://naqaedu.pages.dev/', '_blank');">
           <span class="btn-launch-icon"><i class="fas fa-play"></i></span>
           <span class="btn-launch-text">ابدأ الآن</span>
           <span class="btn-launch-arrow"><i class="fas fa-arrow-left"></i></span>
