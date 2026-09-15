@@ -22,6 +22,12 @@ app.get('/', (c) => {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="/static/style.css"/>
 
+  
+  <meta property="og:title" content="تحدي مسارات نقاء | نحو مستقبل رقمي آمن ومستدام">
+  <meta property="og:description" content="برنامج توعوي رقمي تفاعلي ضمن مبادرة نقاء لتعزيز الوعي بالنفايات الإلكترونية والاستدامة الرقمية.">
+  <meta property="og:type" content="website">
+
+
 
 </head>
 <body>
