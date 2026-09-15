@@ -26,7 +26,7 @@ app.get('/', (c) => {
 <meta property="og:url" content="https://naqaedu.pages.dev" />
 <meta property="og:title" content="مبادرة نقاء | تجربة تعلم تفاعلية للاستدامة الرقمية" />
 <meta property="og:description" content="انضم إلى تجربة نقاء التفاعلية للتوعية بالاستدامة الرقمية وكيفية التعامل مع النفايات الإلكترونية." />
-<meta property="og:image" content="../naqawebsite/oog.png" />
+<meta property="og:image" content="../naqawebsite/oog.jpg" />
 
 </head>
 <body>
