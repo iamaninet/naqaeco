@@ -9,11 +9,6 @@ app.get('/', (c) => {
 <html lang="ar" dir="rtl">
 <head>
 
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://naqaedu.pages.dev" />
-<meta property="og:title" content="مبادرة نقاء | تجربة تعلم تفاعلية للاستدامة الرقمية" />
-<meta property="og:description" content="انضم إلى تجربة نقاء التفاعلية للتوعية بالاستدامة الرقمية وكيفية التعامل مع النفايات الإلكترونية." />
-<meta property="og:image" content="https://naqaedu.pages.dev/og-image.png" />
 
 
 
@@ -26,6 +21,13 @@ app.get('/', (c) => {
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="/static/style.css"/>
+
+  <meta property="og:type" content="website" />
+<meta property="og:url" content="https://naqaedu.pages.dev" />
+<meta property="og:title" content="مبادرة نقاء | تجربة تعلم تفاعلية للاستدامة الرقمية" />
+<meta property="og:description" content="انضم إلى تجربة نقاء التفاعلية للتوعية بالاستدامة الرقمية وكيفية التعامل مع النفايات الإلكترونية." />
+<meta property="og:image" content="../naqawebsite/oog.png" />
+
 </head>
 <body>
 
