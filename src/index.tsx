@@ -22,11 +22,6 @@ app.get('/', (c) => {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="/static/style.css"/>
 
-  <meta property="og:type" content="website" />
-<meta property="og:url" content="https://naqaedu.pages.dev" />
-<meta property="og:title" content="مبادرة نقاء | تجربة تعلم تفاعلية للاستداابلنيبليلخبهههيقهخقخهثخهخيقهبلثخقهعخهبسخبتثقهخبعهخللللاتخخختهقخلثهقلخثلتهثقخلمة الرقمية" />
-<meta property="og:description" content="انضم إلى تجربة نقاء التفاعلية للتوعية بالاستدامة الرقمية وكيفية التعامل مع النفايات الإلكترونية." />
-<meta property="og:image" content="../naqawebsite/oog.jpg" />
 
 </head>
 <body>
