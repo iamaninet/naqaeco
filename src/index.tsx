@@ -8,6 +8,14 @@ app.get('/', (c) => {
   return c.html(`<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://naqaedu.pages.dev" />
+<meta property="og:title" content="مبادرة نقاء | تجربة تعلم تفاعلية للاستدامة الرقمية" />
+<meta property="og:description" content="انضم إلى تجربة نقاء التفاعلية للتوعية بالاستدامة الرقمية وكيفية التعامل مع النفايات الإلكترونية." />
+<meta property="og:image" content="https://naqaedu.pages.dev/og-image.png" />
+
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>نقاء – مبادرة توعوية للنفايات الإلكترونية</title>
